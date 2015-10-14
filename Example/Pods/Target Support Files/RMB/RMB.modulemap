@@ -1,0 +1,6 @@
+framework module RMB {
+  umbrella header "RMB-umbrella.h"
+
+  export *
+  module * { export * }
+}

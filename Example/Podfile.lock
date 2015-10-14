@@ -1,0 +1,14 @@
+PODS:
+  - RMB (0.1.0)
+
+DEPENDENCIES:
+  - RMB (from `../`)
+
+EXTERNAL SOURCES:
+  RMB:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RMB: 2d79b83539f81cf2d8a36025eda3ad52c3a5ec68
+
+COCOAPODS: 0.38.2
