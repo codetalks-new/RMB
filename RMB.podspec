@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 人民币大写金额转换工具类。
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/RMB"
+  s.homepage         = "https://github.com/banxi1988/RMB"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "banxi1988" => "banxi1988@gmail.com" }
