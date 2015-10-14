@@ -6,21 +6,32 @@
 [![Platform](https://img.shields.io/cocoapods/p/RMB.svg?style=flat)](http://cocoapods.org/pods/RMB)
 
 ## 用法
+
 ### 安装
-    1. 使用 CocoasPods。`pod "RMB"`
-    2. 手动，将项目的 `RMB.swift` 文件添加到你的项目中。
+
+1. 使用 CocoasPods。
+
+```Ruby
+pod "RMB"
+
+```
+
+ 2. 手动，将项目的 RMB.swift 文件添加到你的项目中。
+
 
 ### 使用
     可以通过查看测试用例，如下，对它就是这样使用的。
 
-   ```swift
+
+```Swift
     XCTAssertEqual(convertNumberToAmountOfRMB(10300.05), "壹万零叁佰元零伍分")
     XCTAssertEqual(convertNumberToAmountOfRMB(130.05), "壹佰叁拾元零伍分")
     XCTAssertEqual(convertNumberToAmountOfRMB(13.06), "壹拾叁元零陆分")
     XCTAssertEqual(convertNumberToAmountOfRMB(3.58), "叁元伍角捌分")
     XCTAssertEqual(convertNumberToAmountOfRMB(9.7), "玖元柒角")
     XCTAssertEqual(convertNumberToAmountOfRMB(1234567890.08),"壹拾贰亿叁仟肆佰伍拾陆万柒仟捌佰玖拾元零捌分")
-   ```
+```
+
 
 
 ## Usage
@@ -45,3 +56,5 @@ banxi1988, banxi1988@gmail.com
 ## License
 
 RMB is available under the MIT license. See the LICENSE file for more info.
+
+

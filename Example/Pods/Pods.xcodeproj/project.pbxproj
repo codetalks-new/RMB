@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03CA8BD8CCD45E3194A3EEE5D9B34D89 /* RMB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E1CC128925CF19E099B9975D5934CD /* RMB.swift */; };
 		0C74131189080E57DA591CB85CE8AF31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3AFD10F02F0789F86F1DCFA815FC53 /* Foundation.framework */; };
 		2E48DA8F3AE1FCCF2C8D3C95275E9886 /* Pods-RMB_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 033962480E799001A168AEFCCB743F1F /* Pods-RMB_Tests-dummy.m */; };
 		73E695AD0AB36CAD03DD429B07FD5DDB /* RMB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF92E518444F70790B534936FCB2869 /* RMB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E4F24E800339BB0688CDDABC31A9455 /* RMB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32905F4DC790438D64E8E4D4C8D199 /* RMB.swift */; };
 		83F4DD8BA380C40D165CC92B97586274 /* Pods-RMB_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E88514E58A46B03ACA424EF8A313B653 /* Pods-RMB_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89DAE88E0A89231D5F2B7C0A5611DF49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3AFD10F02F0789F86F1DCFA815FC53 /* Foundation.framework */; };
-		93DDF6B60F904F8E12A20613C9B40FC1 /* RMB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F56E348DDB515782ACB34A4A5546C9E /* RMB-dummy.m */; };
+		9903CF0ECFD68C9CEAABC6082CB6FD64 /* RMB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F88460677AB79B6C2F100C2C98009 /* RMB-dummy.m */; };
 		FFCD9E66DCC117371064F1B11872360C /* RMB.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC561EEEB4B6E28F7AD948A99BE22D9E /* RMB.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		240D5B2EFBC1D5AFF1DAD8060A262518 /* PBXContainerItemProxy */ = {
+		618B100A10D01B7F6E42F3B46106849E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DEEEA81FD42187D9EE8D825EED6AFF47;
 			remoteInfo = RMB;
 		};
-		FC246F5F07F0FA3DFA717FEB1DC8FB55 /* PBXContainerItemProxy */ = {
+		AAE281C79B2254490B4DC091DA1F19A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -43,15 +43,15 @@
 		270647FDF5B754089972060A6225E2A5 /* RMB-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RMB-Private.xcconfig"; sourceTree = "<group>"; };
 		395764DEA52C3DDB0884DCFF7F4CD6B9 /* RMB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMB-prefix.pch"; sourceTree = "<group>"; };
 		4726B5440AB389D29BF5F712A490DF71 /* Pods-RMB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RMB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4F56E348DDB515782ACB34A4A5546C9E /* RMB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMB-dummy.m"; sourceTree = "<group>"; };
+		4D32905F4DC790438D64E8E4D4C8D199 /* RMB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RMB.swift; sourceTree = "<group>"; };
 		564E9400E0D20E0071E5D89F9C3596CA /* Pods-RMB_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RMB_Tests-resources.sh"; sourceTree = "<group>"; };
 		5D60AD4A11852F5F1CF333F4908AD8B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E3AFD10F02F0789F86F1DCFA815FC53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6638ACDC9C5315F1EC4DC7E2AF0D8880 /* RMB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RMB.modulemap; sourceTree = "<group>"; };
 		6BC223D1E1889A5C992DBBFEAF91F9C3 /* Pods-RMB_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RMB_Tests.modulemap"; sourceTree = "<group>"; };
-		71E1CC128925CF19E099B9975D5934CD /* RMB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RMB.swift; sourceTree = "<group>"; };
 		7A68BEB61EF8538B41D00858986846F8 /* RMB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMB.xcconfig; sourceTree = "<group>"; };
 		9BF92E518444F70790B534936FCB2869 /* RMB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMB-umbrella.h"; sourceTree = "<group>"; };
+		A10F88460677AB79B6C2F100C2C98009 /* RMB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMB-dummy.m"; sourceTree = "<group>"; };
 		AB2B9114C57B9ADB37E2DA8C41336719 /* Pods_RMB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DC561EEEB4B6E28F7AD948A99BE22D9E /* RMB.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMB.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,10 +129,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		787257C98B21A308B2F9F93E2B8F9892 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4D32905F4DC790438D64E8E4D4C8D199 /* RMB.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7C527529FFF12E76F1AAB4DB2706ABD3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BFED6D4418D346DF73BE233AAFB1862A /* Classes */,
+				787257C98B21A308B2F9F93E2B8F9892 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -166,14 +174,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BFED6D4418D346DF73BE233AAFB1862A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				71E1CC128925CF19E099B9975D5934CD /* RMB.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,7 +191,7 @@
 				6638ACDC9C5315F1EC4DC7E2AF0D8880 /* RMB.modulemap */,
 				7A68BEB61EF8538B41D00858986846F8 /* RMB.xcconfig */,
 				270647FDF5B754089972060A6225E2A5 /* RMB-Private.xcconfig */,
-				4F56E348DDB515782ACB34A4A5546C9E /* RMB-dummy.m */,
+				A10F88460677AB79B6C2F100C2C98009 /* RMB-dummy.m */,
 				395764DEA52C3DDB0884DCFF7F4CD6B9 /* RMB-prefix.pch */,
 				9BF92E518444F70790B534936FCB2869 /* RMB-umbrella.h */,
 			);
@@ -249,7 +249,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BB326227766141A91777FA3C4C694AD6 /* PBXTargetDependency */,
+				6EA883A74226D792DDFBD2341D9F3CF5 /* PBXTargetDependency */,
 			);
 			name = "Pods-RMB_Tests";
 			productName = "Pods-RMB_Tests";
@@ -260,7 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00AF25E3826D66738E2BD68DBDCEB5C3 /* Build configuration list for PBXNativeTarget "RMB" */;
 			buildPhases = (
-				C9B88A261EB10B15865E2C3CA71BF372 /* Sources */,
+				778F039B01EF0EEFDDDDFB04EFEFBBA4 /* Sources */,
 				DBF4210FE2732D64B5378AD913A7C27D /* Frameworks */,
 				28EB930B8E6474819B9F9D2048528265 /* Resources */,
 				CAF4195808B3BB791AFF859963F2538A /* Headers */,
@@ -268,7 +268,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CC47507B221BF3152D29D2464CB33FBD /* PBXTargetDependency */,
+				540169D8AB0AF969FCA4B9FF222DA107 /* PBXTargetDependency */,
 			);
 			name = RMB;
 			productName = RMB;
@@ -330,12 +330,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9B88A261EB10B15865E2C3CA71BF372 /* Sources */ = {
+		778F039B01EF0EEFDDDDFB04EFEFBBA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93DDF6B60F904F8E12A20613C9B40FC1 /* RMB-dummy.m in Sources */,
-				03CA8BD8CCD45E3194A3EEE5D9B34D89 /* RMB.swift in Sources */,
+				9903CF0ECFD68C9CEAABC6082CB6FD64 /* RMB-dummy.m in Sources */,
+				7E4F24E800339BB0688CDDABC31A9455 /* RMB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,17 +349,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BB326227766141A91777FA3C4C694AD6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RMB;
-			target = DEEEA81FD42187D9EE8D825EED6AFF47 /* RMB */;
-			targetProxy = 240D5B2EFBC1D5AFF1DAD8060A262518 /* PBXContainerItemProxy */;
-		};
-		CC47507B221BF3152D29D2464CB33FBD /* PBXTargetDependency */ = {
+		540169D8AB0AF969FCA4B9FF222DA107 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "RMB-RMB";
 			target = 4BEA8CFA38FDE23D072293708B9A84E2 /* RMB-RMB */;
-			targetProxy = FC246F5F07F0FA3DFA717FEB1DC8FB55 /* PBXContainerItemProxy */;
+			targetProxy = AAE281C79B2254490B4DC091DA1F19A6 /* PBXContainerItemProxy */;
+		};
+		6EA883A74226D792DDFBD2341D9F3CF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RMB;
+			target = DEEEA81FD42187D9EE8D825EED6AFF47 /* RMB */;
+			targetProxy = 618B100A10D01B7F6E42F3B46106849E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
