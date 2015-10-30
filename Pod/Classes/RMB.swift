@@ -201,7 +201,7 @@ public func convertNumberToAmountOfRMB(number:Double,onlyIntegerPart:Bool=false)
         }
         
         if fenCount > 0 {
-            if jiaoCount < 1 {
+            if jiaoCount < 1  && prevBase != nil {
                 if finalChars.last != RMBChar.Zero.rawValue{
                     finalChars.append(RMBChar.Zero.rawValue)
                 }
