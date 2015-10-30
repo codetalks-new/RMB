@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RMB"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "基于 Swift 的人民币转换处理工具包"
 
 # This description is used to generate tags and improve search results.
